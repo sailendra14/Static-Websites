@@ -1,6 +1,7 @@
 <!-- Author: Sailendra Chettri
 Purpose: Fully responsive FrontEnd Website
 date:22/08/2020 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +10,7 @@ date:22/08/2020 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Online Food Delivery in India | myonlinemeal.com</title>
     <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width:1370px)" href="/css/phone.css">  -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
 </head>
 
@@ -34,6 +36,90 @@ date:22/08/2020 -->
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         <input type="button" value="Order Now" id="btn">
     </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/img/Fruits.jpg" alt="Fruits & vegetable">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, obcaecati saepe sequi
+                    velit, expedita suscipit distinctio cum adipisci facere iste dicta similique ab porro modi veritatis
+                    nesciunt aliquid ratione. Aperiam?</p>
+            </div>
+
+            <div class="box">
+                <img src="/img/ice-cream.jpg" alt="Fruits & vegetable">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, obcaecati saepe sequi
+                    velit, expedita suscipit distinctio cum adipisci facere iste dicta similique ab porro modi veritatis
+                    nesciunt aliquid ratione. Aperiam?</p>
+            </div>
+
+            <div class="box">
+                <img src="/img/pizza.jpg" alt="Fruits & vegetable">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, obcaecati saepe sequi
+                    velit, expedita suscipit distinctio cum adipisci facere iste dicta similique ab porro modi veritatis
+                    nesciunt aliquid ratione. Aperiam?</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+
+        <div class="clients">
+            <div class="client-item">
+                <img src="/img/apple-logo.png" alt="Client's Logo">
+            </div>
+            <div class="client-item">
+                <img src="/img/apple.png" alt="Client's Logo">
+            </div>
+            <div class="client-item">
+                <img src="/img/Fruits.jpg" alt="Client's Logo">
+            </div>
+            <div class="client-item">
+                <img src="/img/ice-cream.jpg" alt="Client's Logo">
+            </div>
+            <div class="client-item">
+                <img src="/img/mobile-phone.jpg" alt="Client's Logo">
+            </div>
+            <div class="client-item">
+                <img src="/img/pizza.jpg" alt="Client's Logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div class="contact-box">
+            <form action="/contact">
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password">
+            </div>
+           <div class="form-group">
+               <label for="msg">Message:</label>
+               <textarea name="msg" id="msg" cols="60" rows="10"></textarea>
+           </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; onlinemeal.com 2020        
+        </div>
+    </footer>
 </body>
 
 </html>
