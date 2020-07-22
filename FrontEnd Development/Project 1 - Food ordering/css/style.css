@@ -1,0 +1,63 @@
+/* CSS Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(48, 63, 70);
+    height: 23%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+/* Logo Image for Navigation Bar */
+
+#logo img {
+    height: 76px;
+    margin: 6px 30px;
+}
+
+#logoradious {
+    border-radius: 50px;
+}
+
+
+/* List Style for Navigation Bar  */
+
+#navbar ul {
+    display: flex;
+}
+
+
+#navbar ul li {
+    color: blanchedalmond;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px 0px;
+    border-radius: 20px;
+    margin: 7px;
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+#navbar ul li a:hover {
+    color: rgb(15, 15, 26);
+}
+
